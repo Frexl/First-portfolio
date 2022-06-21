@@ -1,0 +1,29 @@
+body {
+    background-color:rgb(249, 249, 252);
+}
+.tap:visited{
+    color: rgb(217, 255, 0);
+background-color: rgb(255, 0, 0);
+}
+.tap::marker{
+    cursor: crosshair;
+}
+input{
+    color: rgba(128, 128, 128, 0.973);
+    background-color: aqua;
+}
+input:hover{
+    text-align:unset;
+}
+p::first-letter{
+    text-decoration: underline;
+    color:rgb(226, 43, 43);
+    text-transform:uppercase;
+}
+body{
+    background-image:href="timyr.jpg";
+    background-image: radial-gradient(3);
+}
+.checkbox:hover{
+    cursor: no-drop;
+}
